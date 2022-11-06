@@ -2,5 +2,3 @@
 첫 걸음마 시작
 
 1일 1깃 활용하기
-
-![mazandi profile](http://mazandi.herokuapp.com/api?handle={handle}&theme=warm)
