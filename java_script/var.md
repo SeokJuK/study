@@ -23,4 +23,36 @@
 3. for문에서 카운터 변수를 사용할 때는 블록 변수를 사용하는것이 좋다 (let)
 
 4. ES6를 사용한다면 예약어 var보다 let을 사용하는 것이 좋다
-         
+
+# 함수 화살표 표기법
+
+1. 매개변수가 없을 때
+
+ex)
+const hi = function(){
+    return "안녕하세요";
+}
+
+=
+
+const hi = () => {return "안녕하세요"};
+
+2. 매개변수가 1개일 때
+
+ex)
+let hi = function(user){
+    document.write(user+"님 안녕하세요");
+}
+
+=
+
+let hi = user => document.write(user + "님 안녕하세요");
+
+3. 매개변수가 2개 이상일 때
+
+ex)
+let sum = function(a, b){
+    return a+b;
+}
+
+let sum = (a,b) => (return a+b);
