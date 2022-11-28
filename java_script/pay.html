@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="price">
+    <input type="text" id="sale">
+    <button id="btn" onclick="calc()"></button>
+
+    <script>
+        function calc(){
+            var price = document.querySelector("#price").value; //price라는 아이디의 값을 가져오는 함수
+            var sales = document.querySelector("#sale").value;
+            var money;
+            money = price - (price * (sales/100));
+
+            document.querySelector("#btn").innerHTML = money;
+            
+        }
+    </script>
+</body>
+</html>
