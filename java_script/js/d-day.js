@@ -4,7 +4,7 @@ var toNow = now.getTime();  // 오늘 날짜를 밀리초로 바꿉니다.
 var toFirst = firstDay.getTime();  // 처음 만난 날을 밀리초로 바꿉니다.
 var passedTime = toNow - toFirst;  // 처음 만난 날과 오늘 사이의 차이 (밀리초)
 var passedDay = Math.round(passedTime/(24*60*60*1000)); // 밀리초를 일로 변환 후 반올림합니다.
-document.querySelector('#accent').innerText = passedDay + "일";  // #accent 영역에 표시합니다.
+document.querySelector('#accent').innerText = passedDay+1 + "일";  // #accent 영역에 표시합니다.
 
 calcDate(100);  // 100일 기념일을 계산해서 표시합니다.
 calcDate(200);  // 200일 기념일을 계산해서 표시합니다.

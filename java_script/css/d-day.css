@@ -6,8 +6,6 @@
 .container{
   width:450px;
   margin:0 auto;
-  /* background:url(images/heart.png) no-repeat 5px -100px;
-  background-size:500px;   */
   border:1px solid #ccc;
   border-radius:2%;
   box-shadow:2px 2px 5px #333;
@@ -66,3 +64,4 @@
   text-align:right;
   line-height:60px;
 }
+
