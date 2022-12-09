@@ -33,3 +33,26 @@ ex) <h1 id="heading">나는나는<h1>
 # querySelector(), querySelectorAll()
 
 앞서 말한 getElementById와 같은 내용이다
+
+하지만 querySelector는 클래스나 아이디, 태그를 이 문장 하나로 처리할 수 있다.
+
+document.querySelector("#heading") -> id
+document.querySelector(".bright") -> class(한개)
+document.querySelectorAll(".bright") - > class모두(nodelist로 적용된다.)
+
+# 속성값을 가져오는 법
+
+getAttribute()
+ex) document.querySelector('heading').getAttribute("src")
+
+# 속성값을 변경하는 방법
+
+setAttribute()
+ex) document.querySelector('heading').setAttribute("src", "image/coffee-blue.jpg);
+-> 속성과 바꿀 값을 입력
+
+# addEventListner()
+
+pic.addEventListner("이벤트명,함수,false(이벤트 캡쳐링));
+
+pic.addEventListner("mouseover","changePic",false); ->함수는 ()를 쓰지않고 그대로 함수명을 한다.
