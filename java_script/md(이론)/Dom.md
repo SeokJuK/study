@@ -17,7 +17,7 @@ DOM은 웹 문서의 요소를 부모 요소와 자식 요소로 구분
 # getElementById()
 
 id 선택자를 사용해서 접근하는 것.
-ex) <h1 id="heading">나는나는<h1>
+ <h1 id="heading">ex) 나는나는</h1>
 -> <script>
     document.getElementById("heading").style.color = "red" -> h1요소에 접근해서 색상을 바꾸는것
     document.getElementById("heading").onclick = function(){
