@@ -17,7 +17,8 @@ DOM은 웹 문서의 요소를 부모 요소와 자식 요소로 구분
 # getElementById()
 
 id 선택자를 사용해서 접근하는 것.
- <h1 id="heading">ex) 나는나는</h1>
+```html
+ ex)  <h1 id="heading">나는나는</h1>
 -> <script>
     document.getElementById("heading").style.color = "red" -> h1요소에 접근해서 색상을 바꾸는것
     document.getElementById("heading").onclick = function(){
@@ -25,7 +26,7 @@ id 선택자를 사용해서 접근하는 것.
     } -> h1요소에 접근해서 클릭하면 fontSize를 변경
     이런식으로 함수도 적용할 수 있다
 </script>
-
+```
 # getElementsByClassName()
 
 ->클래스에 접근하는 것(클래스는 여러번 쓸 수 있기 때문에 s를 붙여준다)
