@@ -29,3 +29,5 @@ function converter() {
         target.value = ((source.value - 32) / 1.8).toFixed(2); // 화씨 -> 섭씨 계산
     }
 }	
+
+// end
